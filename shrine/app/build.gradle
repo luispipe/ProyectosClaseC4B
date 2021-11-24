@@ -21,6 +21,10 @@ android {
     }
 }
 
+task wrapper(type: Wrapper){
+    gradleVersion = '7.2'
+}
+
 dependencies {
     api 'com.google.android.material:material:1.1.0-alpha06'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
